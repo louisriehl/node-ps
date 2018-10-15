@@ -1,0 +1,23 @@
+{
+  "name": "node-ps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisriehl/node-ps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louisriehl/node-ps/issues"
+  },
+  "homepage": "https://github.com/louisriehl/node-ps#readme",
+  "dependencies": {
+    "pg": "^7.5.0"
+  }
+}
