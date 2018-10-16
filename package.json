@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/louisriehl/node-ps#readme",
   "dependencies": {
+    "knex": "^0.15.2",
     "pg": "^7.5.0"
   }
 }
