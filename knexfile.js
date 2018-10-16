@@ -1,16 +1,15 @@
 // Update with your config settings.
+const settings = require('./settings.json');
 
 module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      filename: './dev.sqlite3'
-    }
+    connection: settings
   },
 
   staging: {
-    client: 'pg',
+    client: 'postgresql',
     connection: {
       database: 'my_db',
       user:     'username',
@@ -26,7 +25,7 @@ module.exports = {
   },
 
   production: {
-    client: 'pg',
+    client: 'postgresql',
     connection: {
       database: 'my_db',
       user:     'username',
