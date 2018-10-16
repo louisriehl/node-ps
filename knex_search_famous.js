@@ -16,7 +16,7 @@ knex.select('*')
   .catch(error => {
     console.error(error);
   })
-  .then( () => knex.destroy());
+  .then( () => knex.destroy);
 
 /* -- Takes query object, parses it into a string, and returns it -- */
 function parseResponse (personArray, query) {
